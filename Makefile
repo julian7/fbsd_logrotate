@@ -5,9 +5,10 @@
 # $FreeBSD: ports/sysutils/logrotate/Makefile,v 1.26 2008/08/15 19:19:35 miwi Exp $
 #
 
+PATCH_DEBUG = 1
 PORTNAME=		logrotate
-PORTVERSION=		3.7.7
-PORTREVISION=		1
+PORTVERSION=		3.7.9
+PORTREVISION=		
 CATEGORIES=		sysutils
 MASTER_SITES=		https://fedorahosted.org/releases/l/o/logrotate/
 DISTNAME=		${PORTNAME}-${PORTVERSION}
@@ -19,8 +20,7 @@ LIB_DEPENDS=		popt.0:${PORTSDIR}/devel/popt
 
 USE_GMAKE=	yes
 MAKE_ENV=	"BASEDIR=${PREFIX}"
-PATCH_WRKSRC=		${WRKDIR}
-WRKSRC=			${WRKDIR}/${PORTNAME}-${PORTVERSION}
+#WRKSRC=			${WRKDIR}/${PORTNAME}-${PORTVERSION}
 
 MAN8=		logrotate.8
 MANCOMPRESSED=	no

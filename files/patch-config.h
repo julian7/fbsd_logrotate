@@ -1,6 +1,5 @@
-diff -ruN logrotate-3.7.7-orig/config.h logrotate-3.7.7/config.h
---- logrotate-3.7.7-orig/config.h	Sat Nov 12 19:07:56 2005
-+++ logrotate-3.7.7/config.h	Sun Jun 22 22:02:29 2008
+--- config.h.orig
++++ config.h
 @@ -16,6 +16,13 @@
  #define STATEFILE "/var/log/logrotate.status"
  #endif
