@@ -1,5 +1,7 @@
---- config.h.orig
-+++ config.h
+diff --git a/config.h b/config.h
+index ae7f308..7c0a2b3 100644
+--- a/config.h
++++ b/config.h
 @@ -16,6 +16,13 @@
  #define STATEFILE "/var/log/logrotate.status"
  #endif

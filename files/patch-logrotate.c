@@ -1,5 +1,7 @@
---- logrotate.c.orig
-+++ logrotate.c
+diff --git a/logrotate.c b/logrotate.c
+index 3748918..a528367 100644
+--- a/logrotate.c
++++ b/logrotate.c
 @@ -1,5 +1,4 @@
  #include <sys/queue.h>
 -#include <alloca.h>

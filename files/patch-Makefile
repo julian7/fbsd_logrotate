@@ -1,5 +1,7 @@
---- Makefile.orig
-+++ Makefile
+diff --git a/Makefile b/Makefile
+index adb97f2..a2d51f7 100644
+--- a/Makefile
++++ b/Makefile
 @@ -53,6 +53,13 @@ ifeq ($(OS_NAME),Linux)
      BASEDIR = /usr
  endif

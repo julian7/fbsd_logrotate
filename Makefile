@@ -17,6 +17,7 @@ COMMENT=		Daemon to rotate, compress, remove and mail system log files
 
 LIB_DEPENDS=		popt.0:${PORTSDIR}/devel/popt
 
+PATCH_STRIP=		-p1
 USE_GMAKE=	yes
 MAKE_ENV=	"BASEDIR=${PREFIX}"
 
