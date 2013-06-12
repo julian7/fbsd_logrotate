@@ -2,7 +2,7 @@
 # $FreeBSD: sysutils/logrotate/Makefile 317601 2013-05-07 12:33:25Z culot $
 
 PORTNAME=		logrotate
-PORTVERSION=		3.8.4
+PORTVERSION=		3.8.5
 CATEGORIES=		sysutils
 MASTER_SITES=		https://fedorahosted.org/releases/l/o/logrotate/
 
