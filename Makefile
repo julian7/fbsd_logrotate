@@ -1,5 +1,5 @@
 # Created by: Yuan-Chen Cheng <ycheng@sinica.edu.tw>
-# $FreeBSD: sysutils/logrotate/Makefile 317601 2013-05-07 12:33:25Z culot $
+# $FreeBSD: sysutils/logrotate/Makefile 327772 2013-09-20 23:05:58Z bapt $
 
 PORTNAME=		logrotate
 PORTVERSION=		3.8.5
@@ -20,6 +20,7 @@ MAN5=		logrotate.conf.5
 MAN8=		logrotate.8
 MANCOMPRESSED=	no
 
+NO_STAGE=	yes
 post-install:
 	@${MKDIR} ${EXAMPLESDIR}
 	@${SED} -e 's|__PREFIX__|${PREFIX}|' \
